@@ -1,22 +1,3 @@
-'''import os, shutil
-
-initpath = "C:\\Users\\karum\\Downloads\\"
-
-destpath = "C:\\Users\\karum\\OneDrive\\Desktop\\Filtered Files\\"
-
-for path,dirs,files in os.walk(initpath):
-    for file in files:
-        extn = file.split(".")[1]
-
-        if os.path.exists(destpath + extn):
-            shutil.copy(path + "\\" + file, destpath + extn)
-        else:
-            os.makedirs(destpath + extn)
-            shutil.copy(path + "\\" + file, destpath + extn)
-
-print("done")'''
-
-#**********************************************************************************#
 
 def move():
     srcentry = src.get()
